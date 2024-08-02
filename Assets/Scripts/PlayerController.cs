@@ -1,5 +1,6 @@
+using System.Collections;
 using UnityEngine;
-
+using TMPro;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -8,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     public int totalLives = 3;
     private int currentLives;
+    public TextMeshProUGUI lifeText;
     public Animator hurtAnimator;
 
     private Animator animator;
@@ -17,18 +19,41 @@ public class PlayerController : MonoBehaviour
 
     public TrailRenderer trailRenderer;
 
+    public float powerUpSpeedMultiplier = 2f;
+    public float powerUpSizeMultiplier = 1.5f;
+
+    private float originalSpeed;
+    private Vector3 originalSize;
+
+    public TextMeshProUGUI obstacleCountText;
+    private int obstacleCount = 0;
+    public GameObject thrownObstaclePrefab;
+    public Transform throwPoint;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
         currentLives = totalLives;
+        lifeText.text = currentLives.ToString();
+
         ChangeColor(currentColorIndex); // Set initial color
         SetIdleState();
+        UpdateObstacleCountUI();
+
+        originalSpeed = moveSpeed;
+        originalSize = transform.localScale;
     }
 
     private void Update()
     {
         HandleMovementAndColorChange();
         UpdateAnimationState();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ThrowObstacle();
+        }
+
     }
 
     private void HandleMovementAndColorChange()
@@ -135,6 +160,7 @@ public class PlayerController : MonoBehaviour
             Obstacle obstacle = other.GetComponent<Obstacle>();
             if (obstacle.color == GetCurrentColor())
             {
+                CollectObstacle(obstacle.color);
                 Destroy(other.gameObject);
             }
             else
@@ -144,14 +170,72 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void CollectObstacle(Color color)
+    {
+        obstacleCount++;
+        UpdateObstacleCountUI();
+    }
+
+    private void UpdateObstacleCountUI()
+    {
+        obstacleCountText.text = "Obstacles collected: " + obstacleCount;
+    }
+
+    private void ThrowObstacle()
+    {
+        if (obstacleCount > 0)
+        {
+            GameObject thrownObstacle = Instantiate(thrownObstaclePrefab, throwPoint.position, throwPoint.rotation);
+            ThrownObstacle thrownObstacleScript = thrownObstacle.GetComponent<ThrownObstacle>();
+            if (thrownObstacleScript != null)
+            {
+                thrownObstacleScript.color = GetCurrentColor();
+                thrownObstacle.GetComponent<SpriteRenderer>().color = thrownObstacleScript.color;
+            }
+
+            // Add force to throw the obstacle
+            Rigidbody2D rb = thrownObstacle.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.AddForce(transform.right * 500f); // Adjust the force as needed
+            }
+
+            obstacleCount--;
+            UpdateObstacleCountUI();
+        }
+    }
+
+    public IEnumerator ActivatePowerUp(PowerUp.PowerUpType powerUpType, float duration)
+    {
+        switch (powerUpType)
+        {
+            case PowerUp.PowerUpType.Speed:
+                moveSpeed *= powerUpSpeedMultiplier;
+                break;
+            case PowerUp.PowerUpType.Size:
+                transform.localScale *= powerUpSizeMultiplier;
+                break;
+        }
+        yield return new WaitForSeconds(duration);
+        switch (powerUpType)
+        {
+            case PowerUp.PowerUpType.Speed:
+                moveSpeed = originalSpeed;
+                break;
+            case PowerUp.PowerUpType.Size:
+                transform.localScale = originalSize;
+                break;
+        }
+    }
+
     private void LoseLife()
     {
         currentLives--;
         hurtAnimator.SetTrigger("Hurt"); // Play hurt animation
-
+        lifeText.text = currentLives.ToString();
         if (currentLives <= 0)
         {
-            // Handle game over logic here
+            return;
         }
     }
 
