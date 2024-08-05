@@ -13,7 +13,7 @@ public class PowerUp : MonoBehaviour
             PlayerController player = other.GetComponent<PlayerController>();
             if (player != null)
             {
-                StartCoroutine(player.ActivatePowerUp(powerUpType, duration));
+               // StartCoroutine(player.ActivatePowerUp(powerUpType, duration));
                 Destroy(gameObject);
             }
         }

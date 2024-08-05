@@ -2,18 +2,25 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public Color color;
-    public float fallSpeed = 2f;
+    public float initialSpeed = 2f;
+    public float difficultyIncreaseRate = 0.1f;
+    private float speed;
 
-    private void Start()
+    void Start()
     {
-        GetComponent<SpriteRenderer>().color = color;
+        speed = initialSpeed;
     }
 
-    private void Update()
+    void Update()
     {
-        transform.Translate(Vector3.down * fallSpeed * Time.deltaTime);
-        if (transform.position.y < -Camera.main.orthographicSize - 1)
+        // Increase speed gradually over time
+        speed += difficultyIncreaseRate * Time.deltaTime;
+
+        // Move the obstacle to the left
+        transform.position += Vector3.left * speed * Time.deltaTime;
+
+        // Destroy the obstacle if it goes off-screen
+        if (transform.position.x < -10f)
         {
             Destroy(gameObject);
         }
