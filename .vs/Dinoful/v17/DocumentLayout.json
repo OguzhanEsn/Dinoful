@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|c:\\users\\oguzh\\onedrive\\masa\u00FCst\u00FC\\dinoful\\dinoful\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|c:\\users\\oguzh\\onedrive\\masa\u00FCst\u00FC\\dinoful\\dinoful\\assets\\scripts\\backgroundsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\thrownobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thrownobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\colorchangebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +27,16 @@
       "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\thrownobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thrownobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\assets\\scripts\\backgroundsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|c:\\users\\oguzh\\onedrive\\masa\u00FCst\u00FC\\dinoful\\dinoful\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05B5ACC-D9F5-52CA-F245-65C18BCB6389}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BackgroundSegment.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\BackgroundSegment.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundSegment.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
@@ -76,33 +76,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ColorChanger.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ColorChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ColorChanger.cs",
               "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ColorChanger.cs",
               "RelativeToolTip": "Assets\\Scripts\\ColorChanger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T16:00:47.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "PlayerCollision.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\PlayerCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCollision.cs",
               "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\PlayerCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerCollision.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T16:00:04.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ColorChangeButton.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ColorChangeButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ColorChangeButton.cs",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ThrownObstacle.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ThrownObstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ThrownObstacle.cs",
@@ -123,43 +123,44 @@
               "RelativeToolTip": "Assets\\Scripts\\ThrownObstacle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:08:15.877Z"
+              "WhenOpened": "2024-08-02T14:08:15.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ObstacleSpawner.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ObstacleSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
               "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\ObstacleSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAFAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowBIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:57:25.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Obstacle.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\Obstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
               "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\Obstacle.cs",
               "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:57:04.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\Dinoful\\Dinoful\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:55:38.084Z",
               "EditorCaption": ""

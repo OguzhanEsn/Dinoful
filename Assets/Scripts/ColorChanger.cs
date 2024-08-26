@@ -5,7 +5,7 @@ public class ColorChanger : MonoBehaviour
     public float speed = 5f;
     private SpriteRenderer sr;
     private int currentColorIndex = 0;
-    private float colorChangeInterval = 1f; // Change color every second
+    private float colorChangeInterval = 2f; // Change color every second
 
     private void Start()
     {
@@ -17,7 +17,7 @@ public class ColorChanger : MonoBehaviour
     {
         transform.Translate(Vector2.left * speed * Time.deltaTime);
 
-        if (transform.position.x < -10f) // Arbitrary off-screen position
+        if (transform.position.x < -10f) 
         {
             Destroy(gameObject);
         }
@@ -25,7 +25,7 @@ public class ColorChanger : MonoBehaviour
 
     private void ChangeColor()
     {
-        currentColorIndex = (currentColorIndex + 1) % 4; // Assuming 4 colors
+        currentColorIndex = (currentColorIndex + 1) % 4; 
         sr.color = GetCurrentColor();
     }
 
